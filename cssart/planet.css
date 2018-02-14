@@ -1,6 +1,6 @@
 body {
 	font-family: BariolRegular;
-	
+
 }
 
 #wrapper {
@@ -121,7 +121,7 @@ body {
 
 @keyframes bob {
     0%   {top: 0;}
-    50%  {top: 5%;}
+    50%  {top: 25px;}
     100% {top: 0;}
 
 }

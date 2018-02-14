@@ -72,7 +72,7 @@ body {
 	margin: 3%;
 	padding: 0;
 
-	background: url(resources/wlogo2.png);
+	background: url(resources/logga2.png);
 	background-repeat: no-repeat;
 	background-size: contain;
 
@@ -84,7 +84,7 @@ ul.boxTitle {
     list-style-type: none;
     margin: 0;
     padding: 25px;
-
+    
 }
 
 ::selection {
