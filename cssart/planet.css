@@ -116,7 +116,7 @@ body {
 	position: relative;
 	height: 200px;
 
-	animation: bob 5s ease-in-out infinite;
+	animation: bob 9s ease-in-out infinite;
 }
 
 @keyframes bob {
@@ -124,4 +124,23 @@ body {
     50%  {top: 25px;}
     100% {top: 0;}
 
+}
+
+#spaceship {
+
+	background: url(spaceship.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+
+	transform: rotate(67.5deg) translate(35%, 35%);
+	position: relative;
+	height: 350px;
+
+	animation: travel 10s ease-in-out infinite;
+}
+
+@keyframes travel {
+    0%   {left: 0;}
+    50%  {left: 25px;}
+    100% {left: 0;}
 }

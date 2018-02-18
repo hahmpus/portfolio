@@ -84,7 +84,8 @@ ul.boxTitle {
     list-style-type: none;
     margin: 0;
     padding: 25px;
-    
+    text-align: center;
+
 }
 
 ::selection {
